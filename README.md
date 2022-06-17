@@ -11,3 +11,33 @@ IEEE Access
 
 please visit:
 (Oyelade et al., [2022] arXiv:2106.01416 (https://arxiv.org/abs/2106.01416)).
+
+___
+Solve the error from [original repository](https://github.com/NathanielOy/EOSA_Metaheuristic):
+-
+##### Fixing a bugs
+- line: 52-53 of file [utils/differential_equations.py](utils/differential_equations.py)
+- line: 502 of file [utils/FunctionUtil.py](utils/FunctionUtil.py)
+- Create a folders for solve the saving figures error
+  - `history/results/`
+    - `history/results/graphs`
+    - `history/results/scatter`
+      - `history/results/scatter/EOSA`
+    - `history/results/solutions`
+
+<br>
+
+##### Requirements conda/miniconda:
+- Create environment
+  ```bash
+  conda env create -f environment.yml
+  ```
+- Activate the EOSA environment
+  ```bash
+  conda activate EOSA
+  ```
+
+<br>
+
+##### Run EOSA algorithm on file 
+- [run_EBOA.py](run_EBOA.py)
