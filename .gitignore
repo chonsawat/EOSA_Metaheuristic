@@ -1,0 +1,7 @@
+.idea
+utils/__pycache__/
+history/
+
+!history/results/graphs/.gitkeep
+!history/results/scatter/EOSA/.gitkeep
+!history/results/solutions/.gitkeep
