@@ -49,7 +49,8 @@ class DiffEquation(object):
                     self.xs # the values of T: {epoch0, epoch1, epoch2.....epoch_n}
                    )
         self.ys = np.array(self.ys).flatten()
-        self.ys=(self.ys - np.min(self.ys)) / (np.max(self.ys) - np.min(self.ys))
+        if not self.ys == np.min(self.ys):
+            self.ys=(self.ys - np.min(self.ys)) / (np.max(self.ys) - np.min(self.ys))
         return self.ys
     
     
