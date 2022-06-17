@@ -499,7 +499,7 @@ def CEC_EbOA_11(solution=None, problem_size=None, shift=0):
     beta=0.1
     for k in range(problem_size):
         for i in range(problem_size):
-            inner+=(i+1 + beta) * (np.power((solution[i]/i+1), k+1) - 1)    
+            inner+=(i+1 + beta) * (np.power((solution[i]/(i+1)), k+1) - 1)
         outer+=np.power(inner, 2)
         
     return outer
