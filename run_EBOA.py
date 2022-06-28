@@ -12,7 +12,7 @@ for func_name in func_domain_ranges:
     done=['Ackley', 'Brown', 'Sphere','Bent Cigar', 'Composition1', 'Composition2', 'Dixon and Price', 'Discus Function', 
 'Fletcher–Powel','Griewank','Generalized Penalized Function 1', 'Generalized Penalized Function 2', 
 'Holzman 2 function', 'HGBat','High Conditioned Elliptic Function', 'Hybrid1 Rotated Zakharov Function', 
-'Hybrid2: Rotated High Conditioned Elliptic Function','Inverted Cosine Mixture', 'Lévy 3 function', 'Levy', 
+'Hybrid2: Rotated High Conditioned Elliptic Function','Inverted Cosine Mixture', 'Levy 3 function', 'Levy', 
 'Levy and Montalo', 'Noise', 'Pathological function', 'Perm','Powel', 'Quartic', 'Rastrigin', 'Rotated hyperellipsoid',
 'Rosenbrock ','Schwefel 2.26','Schwefel 1.2','Schwefel 2.21','Step','Sum Function','Sum-Power',
 'Sum of Different Power',
